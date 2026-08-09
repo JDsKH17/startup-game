@@ -3,7 +3,7 @@ public class SimpleStartupGame{
 public static void main(String[] args){
 
     int numOfGuesses = 0;
-    GameHelper helper = new GameHelper();
+    GameHelper2 helper = new GameHelper2();
 
     SimpleStartup startup = new SimpleStartup();
 
@@ -50,7 +50,7 @@ class SimpleStartup {
 }
 
 
-    class GameHelper {
+    class GameHelper2 {
     static  Scanner scanner = new Scanner(System.in);
         public int getUserInput(String prompt) {
         System.out.print(prompt + ": ");
